@@ -1,0 +1,11 @@
+Data/
+./Data/
+# Exclude all files with .csv extension
+*.csv
+
+# Exclude all files larger than 10MB
+*.{zip,tar.gz}      # for compressed files
+*.pkl
+
+*.DS_Store
+*.ipynb_checkpoints
